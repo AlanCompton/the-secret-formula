@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width">
+    <title>Document</title>
+</head>
+<body>
+
+    <form id="alertForm">
+        <input id="alertInput" type="text" autocomplete="off"/>
+        <input type="submit" value="Submit">
+    </form>
+    <br>
+    <br>
+
+        <form id="sandwichForm">
+            <h2>Sandwich Builder</h2>
+
+            <div>
+                <label>Turkey</label>
+                <input class="ingredients" id="turkey" type="checkbox"/>
+            </div>
+
+            <div>
+                <label>Mayo</label>
+                <input class="ingredients" id="mayo" type="checkbox"/>
+            </div>
+
+            <div>
+                <label>Chicken</label>
+                <input class="ingredients" id="chicken" type="checkbox"/>
+            </div>
+
+            <div>
+                <label>Spinach</label>
+                <input class="ingredients" id="spinach" type="checkbox"/>
+            </div>
+
+            <div>
+                <label>Lettuce</label>
+                <input class="ingredients" id="lettuce" type="checkbox"/>
+            </div>
+
+            <div>
+                <label>Tomato</label>
+                <input class="ingredients" id="tomato" type="checkbox"/>
+            </div>
+
+            <div>
+                <label>Beef</label>
+                <input class="ingredients" id="beef" type="checkbox"/>
+            </div>
+
+            <div>
+                <label>Ketchup</label>
+                <input class="ingredients" id="ketchup" type="checkbox"/>
+            </div>
+
+            <div>
+                <label>Ham</label>
+                <input class="ingredients" id="ham" type="checkbox"/>
+            </div>
+
+            <div>
+                <label>Mustard</label>
+                <input class="ingredients" id="mustard" type="checkbox"/>
+            </div>
+
+            <input type="submit">
+        </form>
+        <br>
+        <br>
+
+        <form id="appointment">
+            <h2>Schedule Hairstyle Appointment</h2>
+            <div>
+                <label>Please select a date:</label>
+                <input type="date" id="date">
+            </div>
+
+        <br>
+        <div>
+            <label for="hairStylist">Select your stylist:</label>
+            <select name="hairStylist" id="hairStylist">
+
+                <option value="Wendy">Wendy</option>
+                <option value="Gregg">Gregg</option>
+                <option value="Sandy">Sandy</option>
+                <option value="Calvin">Calvin</option>
+                <option value="Alexis">Alexis</option>
+                <option value="Chuck">Chuck</option>
+                <option value="Eren">Eren</option>
+                </select>
+            <br>
+            <br>
+        </div>
+
+        <br>
+        <div>
+            <h3>Hair Length:</h3>
+            <div>
+                <label>Long</label>
+                <input type="radio" name="hair" id="long" checked>
+            </div>
+
+            <div>
+                <label>Short</label>
+                <input type="radio" name="hair" id="short" checked>
+            </div>
+        </div>
+        
+        <br>
+        <input type="submit">
+        </form>
+
+        <form id="account">
+            <h2>Create an Account</h2>
+
+            <div>
+                <label>Username</label>
+                <input type="text" name="username" id="username" autocomplete="off">
+            </div>
+
+            <div>
+                <label>Email</label>
+                <input type="email" name="email" id="email" autocomplete="off">
+            </div>
+
+            <div>
+                <label>Password</label>
+                <input type="password" name="password" id="password" autocomplete="off">
+            </div>
+
+            <div>
+                <label>Confirm Password</label>
+                <input type="password" name="confPassword" id="confPassword" autocomplete="off">
+            </div>
+
+            <input type="submit" id="createSubmit">
+        </form>
+
+    <script src="main.js"></script>
+</body>
+</html>
